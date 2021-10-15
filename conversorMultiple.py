@@ -30,6 +30,7 @@ elif opcion == 3: #Bitcoin a Euros
     sufijo = "€"
 else: 
     print('Escribe una opción correcta, por favor (1,2,3) ')
+    quit()
 
 cambio = moneda * conversor
 print('Tienes '+ prefijo + str(round(cambio, 2)) + sufijo)
