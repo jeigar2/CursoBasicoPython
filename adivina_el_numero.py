@@ -17,6 +17,7 @@ def run ():
             print ("menor")
     print ("¡Ganaste! el número era: '" + str(numero_aletorio) + "'. Total intentos: " + str(intentos))
 
+
 if __name__ == "__main__":
     run()
 

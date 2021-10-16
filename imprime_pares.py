@@ -9,5 +9,6 @@ def run():
             break;
         print(caracter)
 
+
 if __name__ == "__main__":
     run()

@@ -4,6 +4,7 @@ def conversion(nombre_moneda, conversor, prefijo, sufijo):
     cambio = moneda * conversor
     print('Tienes '+ prefijo + str(round(cambio, 2)) + sufijo)
 
+
 menu = """
 Bienvenido al conversor de monedas
 
