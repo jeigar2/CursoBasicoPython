@@ -11,7 +11,7 @@ def run():
     limite = int(input("introduce el límite de número primos ha estudiar: "))
     for contador in range(2,limite):
         if es_primo(contador):
-            print(str(contador) + " es primo")
+            print(str(contador) + " 'es primo'")
         else:
             print(str(contador))
 
