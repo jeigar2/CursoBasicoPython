@@ -1,12 +1,15 @@
 def f_potencia(potencia):
-    print("2 elevado a " + str(potencia) + " es igual a " + str(2**potencia))
-    return 2**potencia
+    BASE = 2
+    potencia_base = BASE**potencia
+    print(str(BASE) + " elevado a " + str(potencia) + " es igual a " + str(potencia_base))
+    return potencia_base
 
 
 def run():
-    i = 0
-    while f_potencia(i) < 1000:
-        i += 1
+    LIMITE = 1000
+    contador = 0
+    while f_potencia(contador) < LIMITE:
+        contador += 1
 
 
 if __name__ == "__main__":
